@@ -11,15 +11,15 @@
 ## **🚀 One-Line Installation**
 ### **Linux (Debian, Ubuntu, Arch, Fedora)**
 ```bash
-sudo curl -sSL "https://raw.githubusercontent.com/CyberCompass/CdnCompass/cdn_compass.py" -o /usr/local/bin/cccdn && sudo chmod +x /usr/local/bin/cccdn
+sudo curl -sSL "https://raw.githubusercontent.com/CyberCompass/CdnCompass/main/cdn_compass.py" -o /usr/local/bin/cccdn && sudo chmod +x /usr/local/bin/cccdn
 ```
 ### **macOS (Homebrew)**
 ```bash
-brew install wget && wget -qO /usr/local/bin/cccdn "https://raw.githubusercontent.com/CyberCompass/CdnCompass/cdn_compass.py" && chmod +x /usr/local/bin/cccdn
+brew install wget && wget -qO /usr/local/bin/cccdn "https://raw.githubusercontent.com/CyberCompass/CdnCompass/main/cdn_compass.py" && chmod +x /usr/local/bin/cccdn
 ```
 ### **macOS (Without Homebrew)**
 ```bash
-sudo curl -sSL "https://raw.githubusercontent.com/CyberCompass/CdnCompass/cdn_compass.py" -o /usr/local/bin/cccdn && sudo chmod +x /usr/local/bin/cccdn
+sudo curl -sSL "https://raw.githubusercontent.com/CyberCompass/CdnCompass/main/cdn_compass.py" -o /usr/local/bin/cccdn && sudo chmod +x /usr/local/bin/cccdn
 ```
 
 ---
