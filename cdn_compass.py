@@ -19,7 +19,12 @@ async def get_cdn_info(url):
     except Exception:
         return f"{url} -> Unknown"
 
-async def find_cdn_links(website_url):
+async def find_cdn_links(domain_or_url):
+    #if startswith http or https, then it is a url
+    if domain_or_url.startswith("http"):
+        website_url = domain_or_url
+    else:
+        website_url = f"https://{domain_or_url}"    
     """Scans a website for ALL CDN resources while bypassing HTTP2 issues."""
     cdn_links = set()
 
